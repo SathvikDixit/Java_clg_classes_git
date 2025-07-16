@@ -1,11 +1,5 @@
 import java.util.Scanner;
 
-class bank {
-    public void accType(String type, double amt) {
-        System.out.println(type);
-    }
-}
-
 class saving{
     public void getIntrest(double amt) {
         System.out.println(amt*4/100);
