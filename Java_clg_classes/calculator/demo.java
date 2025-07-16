@@ -14,22 +14,22 @@ public class demo {
     }
 }
 
-class calc {
-    public int add(int n1, int n2) {
-        return n1 + n2;
-    }
-    public int sub(int n1, int n2) {
-        return n1 - n2;
-    }
-}
-class AdvCalc extends calc {
-    public int mul(int n1, int n2) {
-        return n1 * n2;
-    }
-    public int div(int n1, int n2) {
-        return n1 / n2;
-    }
-}
+// class calc {
+//     public int add(int n1, int n2) {
+//         return n1 + n2;
+//     }
+//     public int sub(int n1, int n2) {
+//         return n1 - n2;
+//     }
+// }
+// class AdvCalc extends calc {
+//     public int mul(int n1, int n2) {
+//         return n1 * n2;
+//     }
+//     public int div(int n1, int n2) {
+//         return n1 / n2;
+//     }
+// }
 
 /* To run classes in different files in the same folder the prompt goes by: 
             javac FOLDER_NAME/FILE_NAME.java  and  java FOLDER_NAME.FILE_NAME */ 
