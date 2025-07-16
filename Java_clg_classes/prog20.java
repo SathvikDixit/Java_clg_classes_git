@@ -17,6 +17,14 @@ public class prog20 {
         prog20 p = new prog20();
         p.setData(132, "Sathvik", 90000);
         p.getData();
+
+        prog20 p2 = new prog20();
+        p2.setData(1234, "hello", 2345);
+        p2.getData();
+
+        prog20 p3 = new prog20();
+        p3.setData(1234, "hello", 234205);
+        p3.getData();
         
     }
 }
