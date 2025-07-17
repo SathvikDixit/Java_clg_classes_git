@@ -26,10 +26,20 @@ public class prog24 {
         for(int i = 0; i < 5; i++) {
             if(arr[i] % 2 == 0) {
                 System.out.println(arr[i]);
-            } else {
-                System.out.println("There  are no even elements :(");
+            } 
+        }
+
+        int[] even = new int[5];
+        for(int i = 0; i < 5; i++) {
+            if(arr[i]%2==0){
+                even[i] = arr[i];
             }
         }
+        System.out.print("Even array is: ");
+        for(int i =0; i<5; i++) {
+            System.out.print(even[i] + " ");
+        }
+
         sc.close();
     }
 }
