@@ -16,8 +16,7 @@ public class prog29 {
                 System.out.println(st);
             }
         }
-
-
+        sc.close();
     }
     
 }
