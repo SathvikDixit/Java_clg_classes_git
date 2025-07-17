@@ -12,5 +12,11 @@ public class prog31 {
         }
         System.out.print(rev);
         sc.close();
+
+        if (name.equals(rev)) {
+            System.out.println("\nThis is palandrome");
+        } else {
+            System.out.println("It's not palandrome");
+        }
     }
 }

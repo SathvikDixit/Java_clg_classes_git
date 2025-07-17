@@ -13,5 +13,6 @@ public class prog30 {
         for(int i = 2; i >= 0; i--) {
             System.out.println(names[i]);
         }
+        sc.close();
     }
 }
