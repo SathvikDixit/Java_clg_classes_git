@@ -18,5 +18,4 @@ public class prog29 {
         }
         sc.close();
     }
-    
 }
