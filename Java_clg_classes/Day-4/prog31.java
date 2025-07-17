@@ -11,5 +11,6 @@ public class prog31 {
             rev += name.charAt(i);
         }
         System.out.print(rev);
+        sc.close();
     }
 }
