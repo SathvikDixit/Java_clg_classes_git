@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class prog34 {
     public static void main(String[] args) {
@@ -13,6 +15,8 @@ public class prog34 {
         s.remove("4");
         s.set(0, "used set here");
         System.out.println(s);
-
+        System.out.println(s.get(2));
+        Collections.reverse(s);
+        System.out.println(s);
     }
 }
