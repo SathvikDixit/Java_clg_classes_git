@@ -1,4 +1,5 @@
             // Prog23
+            
 // interface prog23 {
 //     void start();
 //     void stop();
