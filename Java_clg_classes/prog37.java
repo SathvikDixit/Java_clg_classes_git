@@ -40,6 +40,14 @@ public class prog37 {
             System.out.println(a);
         }
 
+        if(a.isEmpty()) {
+            System.out.println("Valid list");
+        } else {
+            System.out.println("Invalid list some duplicates exists.");
+        }
+
+        System.out.println((a.contains(10   )));
+
         sc.close();
     }
 }
