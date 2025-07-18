@@ -10,5 +10,7 @@ public class prog40 {
         m.remove(2);
         System.out.println(m.values());
         System.out.println(m.keySet());
+        System.out.println(m.containsKey(3));
+        System.out.println(m.containsValue("sathvik"));
     }
 }
