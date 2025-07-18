@@ -10,10 +10,11 @@ public class prog37 {
         HashSet<Integer> a = new HashSet<>();
         ArrayList<String> n = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter 5 roll numbers and names: ");
         for(int i = 0; i < 5; i++) {
+            System.out.print("Enter 1st section roll number: ");
             a.add(sc.nextInt());
             sc.nextLine();
+            System.out.print("Enter 1st section names: ");
             n.add(sc.nextLine());
         }
         // System.out.print("Enter names: ");
@@ -23,10 +24,11 @@ public class prog37 {
 
         HashSet<Integer> bB = new HashSet<>();
         ArrayList<String> nB = new ArrayList<>();
-        System.out.print("Enter 5 roll numbers and names: ");
         for(int i = 0; i < 5; i++) {
+            System.out.print("Enter 2st section roll number: ");
             bB.add(sc.nextInt());
             sc.nextLine();
+            System.out.print("Enter 2st section name: ");
             nB.add(sc.nextLine());
         }
         // System.out.print("Enter names: ");
