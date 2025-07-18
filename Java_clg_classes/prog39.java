@@ -21,5 +21,6 @@ public class prog39 {
         if(f1.retainAll(f2)) {
             System.out.println("You have simillar hobbies."+f1);
         }
+        sc.close();
     }
 }
