@@ -6,7 +6,9 @@ public class prog40 {
         m.put(1, "Pranav");
         m.put(2, "Sathvik");
         m.put(3, "Surya");
-        m.remove(2);
         System.out.println(m);
+        m.remove(2);
+        System.out.println(m.values());
+        System.out.println(m.keySet());
     }
 }
